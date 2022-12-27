@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "dom-parser": "^0.1.6",
+    "domparser": "^0.1.1",
+    "mocha": "^10.2.0",
+    "selenium-webdriver": "^4.7.1",
+    "sleep": "^6.3.0",
+    "supertest": "^6.3.3",
+    "timeunit": "^1.1.1",
+    "xmlhttprequest": "^1.8.0"
+  }
+}

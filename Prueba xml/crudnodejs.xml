@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="crudnodejs">
+	<table_structure name="tasks">
+		<field Field="id" Type="int" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="title" Type="varchar(100)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="description" Type="varchar(255)" Null="YES" Key="" Extra="" Comment="" />
+		<key Table="tasks" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="4" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<options Name="tasks" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="4" Avg_row_length="4096" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="5" Create_time="2022-12-23 19:17:36" Update_time="2022-12-23 19:19:27" Collation="utf8mb3_general_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_data name="tasks">
+	
+	<row>
+		<field name="id">1</field>
+		<field name="title">titulo 1</field>
+		<field name="description">descripcion</field>
+	</row>
+	<row>
+		<field name="id">2</field>
+		<field name="title">2</field>
+		<field name="description">2</field>
+	</row>
+	<row>
+		<field name="id">3</field>
+		<field name="title">titulo 1</field>
+		<field name="description">descripcion</field>
+	</row>
+	<row>
+		<field name="id">4</field>
+		<field name="title">2</field>
+		<field name="description">2</field>
+	</row>
+	</table_data>
+</database>
+</mysqldump>

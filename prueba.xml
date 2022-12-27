@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<crudnodejs>
+  <tasks>
+    <title>Titulo 1</title>
+    <descripcion>Descripcion 1</descripcion>
+  </tasks>
+</crudnodejs>
